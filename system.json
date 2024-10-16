@@ -3,7 +3,7 @@
   "title": "Spellwork & Sorcery",
   "description": "The Spellwork & Sorcery system for FoundryVTT!",
   "manifest": "https://raw.githubusercontent.com/kh2183/Spellwork-Sorcery/master/system.json",
-  "download": "https://github.com/kh2183/Spellwork-Sorcery/archive/refs/tags/v0.0.1.zip"
+  "download": "https://github.com/kh2183/Spellwork-Sorcery/releases/download/v0.0.1/Spellwork-Sorcery.v0.0.1.zip"
   "authors": [
     {
       "name": "KH"
