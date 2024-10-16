@@ -2,6 +2,7 @@
   "id": "spellwork-sorcery",
   "title": "Spellwork & Sorcery",
   "description": "The Spellwork & Sorcery system for FoundryVTT!",
+  "manifest": "https://raw.githubusercontent.com/kh2183/Spellwork-Sorcery/master/system.json",
   "authors": [
     {
       "name": "KH"
