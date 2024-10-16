@@ -1,0 +1,27 @@
+{
+  "Actor": {
+    "types": ["character", "npc"]
+  },
+
+    "abilities": {
+        "Physicality": {
+          "value": 10
+        },
+        "Endurance": {
+          "value": 10
+        },
+        "Constitution": {
+          "value": 10
+        },
+        "Charm": {
+          "value": 10
+        },
+        "Cunning": {
+          "value": 10
+        }
+      },
+  
+  "Item": {
+    "types": ["item", "feature", "spell"]
+  }
+}

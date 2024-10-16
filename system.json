@@ -1,0 +1,219 @@
+{
+  "id": "spellwork-sorcery",
+  "title": "Spellwork & Sorcery",
+  "description": "The Spellwork & Sorcery system for FoundryVTT!",
+  "authors": [
+    {
+      "name": "KH"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "12"
+  },
+  "esmodules": ["module/spellwork-sorcery.mjs"],
+  "styles": ["css/spellwork-sorcery.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "background": "systems/spellwork-sorcery/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "surgedice",
+  
+
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "system": "SpellSorc",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["npc"]
+        }
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "system": "SpellSorc",
+      "path": "packs/items",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
+        }
+      }
+    },
+    {
+      "name": "tradegoods",
+      "label": "Trade Goods",
+      "system": "SpellSorc",
+      "path": "packs/tradegoods",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["loot"]
+        }
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "system": "SpellSorc",
+      "path": "packs/spells",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["spell"]
+        }
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "system": "SpellSorc",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["background", "feat"]
+        }
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "system": "dnd5e",
+      "path": "packs/classes",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["class"]
+        }
+      }
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "system": "SpellSorc",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["subclass"]
+        }
+      }
+    },
+    {
+      "name": "classfeatures",
+      "label": "Class & Subclass Features",
+      "system": "SpellSorc",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["feat", "weapon"]
+        }
+      }
+    },
+    {
+      "name": "monsterfeatures",
+      "label": "Monster Features",
+      "system": "SpellSorc",
+      "path": "packs/monsterfeatures",
+      "type": "Item",
+      "private": false,
+      "flags": {
+        "SpellSorc": {
+          "types": ["feat", "weapon"]
+        }
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Rules",
+      "system": "SpellSorc",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {
+        "display": "table-of-contents"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "system": "SpellSorc",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Spellwork & Sorcery",
+      "sorting": "m",
+      "color": "#87CEEB",
+      "packs": [
+        "rules",
+        "tables"      
+      ],
+      "folders": [
+        {
+          "name": "Character Features",
+          "sorting": "m",
+          "color": "#87CEEB",
+          "packs": [
+            "classes",
+            "subclasses",
+            "classfeatures",
+            "backgrounds"           
+          ]
+        },
+        {
+          "name": "Items & Spells",
+          "sorting": "m",
+          "color": "#87CEEB ",
+          "packs": [
+            "items",
+            "spells",
+            "tradegoods"
+          ]
+        },
+        {
+          "name": "Monsters",
+          "sorting": "m",
+          "color": "#87CEEB",
+          "packs": [
+            "monsters",
+            "monsterfeatures"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+

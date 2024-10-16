@@ -1,0 +1,39 @@
+{
+  "SPELL_SORC": {
+    "Ability": {
+      "Phy": { "long": "Physicality", "abbr": "phy" },
+      "End": { "long": "Endurance", "abbr": "end" },
+      "Cun": { "long": "Cunning", "abbr": "cun" },
+      "Con": { "long": "Connection", "abbr": "con" },
+      "Cha": { "long": "Charm", "abbr": "cha" }
+    },
+    "SheetLabels": {
+      "Actor": "SpellSorc Actor Sheet",
+      "Item": "SpellSorc Item Sheet"
+    },
+    "Item": {
+      "Spell": {
+        "SpellLVL": "Level {level} Spells",
+        "AddLVL": "Add LVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC"
+    },
+    "Item": {
+      "item": "Item",
+      "feature": "Feature"
+    }
+  }
+}
